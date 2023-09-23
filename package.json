@@ -1,0 +1,26 @@
+{
+	"name": "tiny-chat",
+	"version": "1.0.0",
+	"main": "src/index.mjs",
+	"type": "module",
+	"author": "Aura Román <kyradiscord@gmail.com>",
+	"license": "MIT",
+	"prettier": "@sapphire/prettier-config",
+	"scripts": {
+		"fmt": "prettier --write src"
+	},
+	"packageManager": "yarn@3.6.3",
+	"volta": {
+		"node": "20.7.0"
+	},
+	"dependencies": {
+		"citty": "^0.1.4",
+		"colorette": "^2.0.20",
+		"ws": "^8.14.2"
+	},
+	"devDependencies": {
+		"@sapphire/prettier-config": "^2.0.0",
+		"@types/ws": "^8.5.5",
+		"prettier": "^3.0.3"
+	}
+}
